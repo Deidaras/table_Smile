@@ -1,0 +1,16 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+
+@font-face {
+    font-family: Inter;
+    src: url('inter/static/Inter-Medium.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
