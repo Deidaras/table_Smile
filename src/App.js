@@ -10,15 +10,16 @@ class Table_Smile extends React.Component {
     super();
 
     let data = [
-      { label: "0", label2: "a" },
-      { label: "1", label2: "a" },
-      { label: "2", label2: "b" },
-      { label: "3", label2: "b" },
-      { label: "4", label2: "b" },
-      { label: "5", label2: "a" },
-      { label: "6", label2: "b" },
-      { label: "7", label2: "aba" },
-      { label: "8", label2: "aaba" }
+      { 
+        "name": "column_int",
+        "type": "Integer",
+        "values": ["1","2","3","4","5","6","8"] 
+      },
+      { 
+        "name": "column_object",
+        "type": "Object",
+        "values": ["a", "b", "b", "a", "a","b","aba","aaba"]
+      },
     ];
 
     this.state = { data, labelFilter_eq: null, 
